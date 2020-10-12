@@ -7,6 +7,5 @@ import com.stscourse.springbootmongodb.domain.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
-
 	
 }
